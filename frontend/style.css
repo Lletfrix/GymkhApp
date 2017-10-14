@@ -1,3 +1,23 @@
+.button3 {
+  display: inline-block;
+  padding: 14px 15px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #00cc00;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0 5px #00bb00;
+}
+.button3:active {
+  background-color: #00ca00;
+  box-shadow: 0 1px #00aa00;
+  transform: translateY(4px);
+}
+
 .progress{
     width: 150px;
     height: 150px;
