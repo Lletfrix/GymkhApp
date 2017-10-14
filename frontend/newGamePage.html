@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HackUPC2017f</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+
+  body {
+    padding: 0;
+    margin: 0;
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 {
+      background-color: #ffffff;
+      color: #000000;
+  }
+  .bg-2 {
+      background-image: url(youngmobile.png);
+      background-size: cover;
+      background-position: center;
+      color: #ffffff;
+  }
+  .bg-3 {
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 {
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 15px 10%;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #ff9933;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 5px #cc6600;
+  }
+  .button:active {
+    background-color: #ff8c1a;
+    box-shadow: 0 1px #994d00;
+    transform: translateY(4px);
+  }
+  </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">GymkhApp</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">HOME</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container bg-1 text-center">
+  <h2> What do you want to do? </h2>
+    <div class="container-fluid text-center bg-1">
+    <form>
+    <button class="button" style="vertical-align:middle; margin-top:10px;"><span>Join</span></button>
+    <div class="form-group" style="padding: 4px 15%;">
+        <label for="nick">Nick:</label>
+        <input type="nick" class="form-control" id="nick" placeholder="Nick" required>
+    </div>
+    <div class="form-group" style="padding: 4px 15%;">
+        <label for="code">GymKhode:</label>
+        <input type="code" class="form-control" id="code" placeholder="GymKhode" required>
+    </div>
+  </form>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-1 text-center">
+  <div class="container-fluid text-center bg-1">
+  <form>
+  <button class="button" style="vertical-align:middle; margin-top:10px;"><span>New Gymkhana</span></button>
+  <div class="form-group" style="padding: 4px 15%;">
+      <label for="game_name">Game Name:</label>
+      <input type="game_name" class="form-control" id="game_name" placeholder="Game Name" required>
+  </div>
+  <div class="form-group" style="padding: 4px 15%;">
+      <label for="time">Time Limit:</label>
+      <input type="time" class="form-control" id="time" placeholder="Time Limit" required>
+  </div>
+  </form>
+</div>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container bg-3 text-center" >
+    <div class="row"><button class="button" data-toggle="collapse" data-target="#instructions_collapsible" style="vertical-align:middle; margin-top:10px;"><span>Instructions</span></div>
+    <div id="instructions_collapsible" class="collapse">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+</div>
+<p>&nbsp;</p>
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>GymkhApp Made By <a href="https://www.github.com/knifecake/Hackupc2017f">Game.io</a></p>
+</footer>
+
+</body>

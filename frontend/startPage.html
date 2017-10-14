@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HackUPC2017f</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+
+  body {
+    padding: 0;
+    margin: 0;
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 {
+      background-color: #ffffff; /* Green */
+      color: #000000;
+  }
+  .bg-2 {
+      background-image: url(youngmobile.png);
+      background-size: cover;
+      background-position: center;
+      color: #ffffff;
+  }
+  .bg-3 {
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 {
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 15px 10%;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #ff9933;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 5px #cc6600;
+  }
+  .button:active {
+    background-color: #ff8c1a;
+    box-shadow: 0 1px #994d00;
+    transform: translateY(4px);
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">GymkhApp</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">HOME</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <img src="sitetitle-hires.png" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <img src="sitetitle-hires.png" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+
+  <h2>A gymkhana - challenge organizer.</h2>
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">+ Info</button>
+  <div id="demo" class="collapse">
+    Make your own challenges in a specific zone. Beat your friends while you help them discover your city!
+  </div>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">
+  <h3><a href="#"><button class="button" style="vertical-align:middle; margin-top: 10px;"><span>Start </span></button></a></h3><br>
+    <h4>Start creating new events!</h4><br>
+  <div class="row">
+    <div class="col-xs-4" style="text-align: right">
+      <a href="#" class="fa fa-facebook"></a>
+    </div>
+    <div class="col-xs-4">
+      <a href="#" class="fa fa-twitter"></a>
+    </div>
+    <div class="col-xs-4" style="text-align: left">
+      <a href="#" class="fa fa-google"></a>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>GymkhApp Made By <a href="https://www.github.com/knifecake/Hackupc2017f">Game.io</a></p>
+</footer>
+
+</body>
