@@ -1,0 +1,1 @@
+postdeploy: bundle exec rails db:migrate

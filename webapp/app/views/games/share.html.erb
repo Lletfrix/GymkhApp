@@ -1,0 +1,6 @@
+<div class="container-fluid">
+  <h2 style="color: black; text-align: center;">Perfect! Your Gymkhana was created!</h2>
+  <div class="row bg-5" style="text-align:center">
+    <p>You can share it with others with this link: <%= link_to new_game_url(g: @game.slug), new_game_url(g: @game.slug) %>. Or by providing them with this code: <var><%= @game.slug|| 'Sorry this game has no code.' %></var></p>
+  </div>
+</div>

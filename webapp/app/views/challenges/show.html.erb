@@ -1,0 +1,46 @@
+<!-- First Container -->
+    <div class="container bg-1 text-center">
+      <h2><%= @challenge.title %></h2>
+      <% if @challenge.place_name %>
+        <p class="text-muted">Location: <%= @challenge.place_name %></p>
+      <% end %>
+        <div class="container-fluid text-center bg-1">
+    </div>
+
+    <button type="button" class="button" style="vertical-align:middle; margin-bottom: 10px; " data-toggle="collapse" data-target="#demo">Description</button>
+      <div id="demo" class="collapse">
+        <p class="paperback"><%= @challenge.description %></p>
+      </div>
+
+      <div style="margin-top: 20px;" class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="progress blue">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">90%</div>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+            <div class="progress yellow">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">20%</div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div>
+    <a href="<%= complete_challenge_url(@challenge) %>" data-method="post"><button class="button3 fa fa-check" style="vertical-align:middle; margin-top: 10px;"><span></span></button></a>
+  </div>
+  <p>&nbsp;</p>

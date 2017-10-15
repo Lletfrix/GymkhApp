@@ -1,0 +1,17 @@
+<%= simple_form_for(@game) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="challenges-forms" style="padding: 4px 15%">
+    <%= f.fields_for :challenges do |ff| %>
+      <%= ff.input :title, label: 'Name:', placeholder: 'Challenge name' %>
+      <%= ff.input :description, label: 'Description:', placeholder: 'Challenge description' %>
+      <%= ff.input :place_name, label: 'Location:' %>
+      <hr>
+    <% end %>
+  </div>
+  <a id="add_challenge_btn" href="#" class="button">Add a challenge</a>
+
+  <div class="form-actions">
+    <%= f.button :submit, 'Finish', class: 'button-2', style: 'vertical-align: middle; margin-top: 10px' %>
+  </div>
+<% end %>

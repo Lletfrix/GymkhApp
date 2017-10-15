@@ -1,0 +1,28 @@
+<%= simple_form_for(@game) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <div class="form-group" style="padding: 4px 15%;">
+      <%= f.input :title, label: 'Game Name:' %>
+    </div>
+    <div class="form-group" style="padding: 4px 15%;">
+      <%= f.input :ends_at, label: 'Time Limit:', as: 'string', html: {type: 'datetime'} %>
+    </div>
+  </div>
+  <div class="form-actions">
+    <%= f.button :submit, 'New Gymkhana', class: 'button', style: 'vertical-align: middle; margin-top: 10px' %>
+  </div>
+
+  <%# <div class="challenges-forms"> %>
+  <%#   <h3>Challenges</h3> %>
+  <%#   <%= f.fields_for :challenges do |ff| %1> %>
+  <%#     <%= ff.input :title %1> %>
+  <%#     <%= ff.input :description %1> %>
+  <%#     <hr> %>
+  <%#   <% end %1> %>
+  <%# </diV> %>
+  <%# <a id="add_challenge_btn" href="#" class="btn btn-success">Add a new challenge</a> %>
+  <%# <hr> %>
+
+
+<% end %>
