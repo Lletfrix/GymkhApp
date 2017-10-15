@@ -1,3 +1,107 @@
+
+
+.button-2{
+  display: inline-block;
+  padding: 15px 10%;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #6699ff;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0 5px #1a66ff;
+}
+.button-2:active {
+  background-color: #3377ff;
+  box-shadow: 0 1px #002b80;
+  transform: translateY(4px);
+}
+
+@font-face {
+  font-family: minecraftia;
+  src: url(Minecraftia.ttf)
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
+}
+p {font-size: 16px;}
+.margin {margin-bottom: 45px;}
+.bg-1 {
+    background-color: #ffffff;
+    color: #000000;
+}
+.bg-2 {
+    background-image: url(youngmobile.png);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+.bg-3 {
+    background-color: #ffffff; /* White */
+    color: #555555;
+}
+.bg-4 {
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+}
+.bg-5 {
+  background-color: #ffffff;
+  color: #994d00;
+}
+.paperback {
+    background-color: #fff5cc; /* Cream */
+    color: #000;
+    font: minecraftia;
+    font-size: 15px;
+    border: black 2px solid;
+    border-radius: 10px;
+}
+
+.container-fluid {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 10%;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #ff9933;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0 5px #cc6600;
+}
+.button:active {
+  background-color: #ff8c1a;
+  box-shadow: 0 1px #994d00;
+  transform: translateY(4px);
+}
+
 .button3 {
   display: inline-block;
   padding: 14px 15px;
